@@ -1,0 +1,207 @@
+h1{
+	font-size: 60px;
+	font-family: Raleway;
+	letter-spacing: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+}
+
+body {
+	background-color: lightgray;
+	margin-top:1px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+header {
+	background-image: url(ASSETS/Images/Vann.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+button { 
+	text-transform: uppercase;
+	font-family: Raleway;
+}
+
+h2 {  
+	text-transform: uppercase;
+	font-family: Raleway;
+	text-align: center;
+	background: rgba(255, 249, 178, 0.6);
+	font-size: 25px;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration:none
+}
+
+div {
+	padding: 1px;
+}
+
+footer {
+	text-align: center;
+	background: rgba(255, 249, 178, 0.6);
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+.img {
+	width: 400px;
+	padding: 20px;
+	border-radius: 50px;
+}
+
+.card1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  text-align: justify;
+  padding: 20px;
+}
+.one {
+  grid-column: 3 / 4;
+  grid-row: 1 / 4;
+  border-radius: 50px;
+}
+
+.three {
+  grid-column: 4 / 8;
+  grid-row: 1 / 4;
+}
+
+.four {
+  grid-column: 4 / 8;
+  grid-row: 2 / 4;
+}
+
+.five {
+  grid-column: 4 / 8;
+  grid-row: 3 / 4;
+}
+
+.card1 img {
+  width: 400px;
+}
+
+.card2 {
+	display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  align-items: stretch;
+  justify-items: center;
+}
+
+.uno {
+	grid-column: 1 / 2;
+  grid-row: 1 / 1;
+}
+
+.dos {
+	grid-column: 2 / 2;
+  grid-row: 1 / 1;
+}
+
+.tres {
+	grid-column: 1 / 2;
+  grid-row: 2 / 2;
+}
+
+.quatro {
+	grid-column: 2 / 2;
+  grid-row: 2 / 2;
+}
+
+.logo {
+	width: 100px;
+}
+
+.card {
+	display: flex;
+	align-items: center;
+  	justify-content: space-around;
+	padding: 30px;
+	min-height: 54px;
+	text-align: center;
+}
+
+.div1 {
+	background: rgba(255, 249, 178, 0.6);
+	padding: 30px
+}
+
+.div2 {
+	display:block;
+	width:150px;
+	line-height:50px;
+	text-align:center;
+	vertical-align:middle;
+	color:white;
+	text-decoration:none;
+	background: rgba(0, 0, 0, 0.8);
+	border-radius: 20px;
+}
+
+.personnalite {
+	display: flex;
+  align-items: center;
+	padding: 20px;
+}
+
+
+
+@media (max-device-width: 500px) {
+	h2 {
+		font-size: 65px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	footer {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.card {
+		display: block;
+		font-size: 65px;
+		margin: 10px;
+		padding: 10px;
+		width: 600px;
+		margin-left: 140px;
+	}
+
+	.div2 {
+		margin: 100px;
+		font-size: 50px;
+		width: 500px;
+		padding: 65px;
+	}
+
+	.logo {
+		width: 200px;
+		margin-left: 90px;
+	}
+
+	.card1 {
+		display: block;
+		margin: 5px;
+	}
+
+	.personnalite {
+		display: block;
+		text-align: justify;
+	}
+
+	.photos {
+		text-align: center;
+	}
+
+}
